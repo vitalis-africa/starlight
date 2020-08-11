@@ -1,0 +1,151 @@
+header {
+    text-align: center;
+    height: auto;
+}
+header h1 {
+  color: darkorange;
+}
+header img {
+    max-width: 100px;
+    float: left;
+    border-radius: 50%;
+}
+header p {
+  color: burlywood;
+}
+/*The side navigation menu */
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: transparent;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color:goldenrod;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  max-height: 2200px;
+  font-size: 20px;
+  }
+h3 {
+  text-align: center;
+  color: green;
+}
+p {
+  text-align: center;
+}
+form {
+  text-align: center;
+}
+div.two {
+  text-align: center;
+  width: 20%;
+  height: auto;
+  list-style-type: none;
+  display: contents;
+  margin: 10px;
+}
+div.two h4{
+  color: grey;
+}
+div.two img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+div.Salie {
+  text-align: center;
+  width: 75%;
+}
+div.Salie h4 {
+  color: darkorange;
+}
+div.Salie h5 {
+  color: burlywood;
+}
+div.Salie img {
+  border-radius: 50%;
+  height: 150px;
+  width: auto;
+}
+#thari {
+  width: 20px;
+  height: auto;
+
+}
+#link {
+  display: inline-block;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {
+    float: left;
+  }
+  div.content {
+    margin-left: 0;
+  }
+  div.two {
+    width: 100%;
+  }
+  div.salie {
+    width: 100%;
+  }
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  header img {
+    float: none;
+  }
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+  form {
+    display: block;
+  }
+  footer a {
+    margin: 0px;
+  }
+  div.two {
+    width: 100%;
+  }
+}
+footer{
+    text-align: center;
+}
+footer img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+}

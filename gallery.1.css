@@ -1,0 +1,151 @@
+header {
+  text-align: center;
+  height: auto;
+}
+header img {
+  max-width: 100px;
+  float: left;
+  border-radius: 50%;
+}
+header h1 {
+color: darkorange;
+}
+header p {
+color: burlywood;
+}
+/*The side navigation menu */
+.sidebar {
+margin: 0;
+padding: 0;
+width: 200px;
+background-color: transparent;
+position: fixed;
+height: 100%;
+overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+display: block;
+color: goldenrod;
+padding: 16px;
+text-decoration: none;
+}
+
+/* Active/current link */
+.sidebar a.active {
+background-color: #4CAF50;
+color: white;
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+background-color: #555;
+color: white;
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+margin-left: 200px;
+padding: 1px 1px;
+max-height: 4000px;
+font-size: 20px;
+}
+div h3 {
+text-align: center;
+color: green;
+}
+div.spokesperson {
+  text-align: center;
+}
+div.spokesperson img {
+  height: auto;
+  width: 100px;
+  border-radius: 50%;
+}
+div.visit {
+  text-align: center;
+  margin: 5px;
+  width: 100%;
+  min-height: 600px;
+  border: 1px solid #555555;
+}
+
+div.img {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 185px;
+}
+
+div.img:hover {
+  border: 1px solid #777;
+}
+
+div.img img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+.sidebar {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.sidebar a {
+  float: left;
+}
+div.content {
+  margin-left: 0;
+  font-size: 20px;
+}
+}
+
+
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  header img {
+    float: none;
+  }
+.sidebar a {
+  text-align: center;
+  float: none;
+}
+div.content {
+  font-size: 20px;
+}
+footer a {
+  margin: 0px;
+}
+div.visit {
+  width: 100%;
+  height: 650px;
+}
+div.img {
+  width: 45%;
+}
+div.desc {
+  font-size: 10px;
+}
+footer img {
+  width: 30px;
+}
+}
+footer{
+  text-align: center;
+}
+footer img {
+  max-width: 50px;
+  height: auto;
+  margin: 10px;
+  border-radius: 50%;
+}
+
