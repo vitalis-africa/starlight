@@ -7,11 +7,9 @@ header img {
   float: left;
   border-radius: 50%;
 }
-header h1 {
-color: darkorange;
-}
 header p {
-color: burlywood;
+color: brown;
+font-size: 25px;
 }
 /*The side navigation menu */
 .sidebar {
@@ -27,7 +25,7 @@ overflow: auto;
 /* Sidebar links */
 .sidebar a {
 display: block;
-color: goldenrod;
+color: blue;
 padding: 16px;
 text-decoration: none;
 }
@@ -53,7 +51,7 @@ font-size: 20px;
 }
 div h3 {
 text-align: center;
-color: green;
+color: blue;
 }
 div.spokesperson {
   text-align: center;

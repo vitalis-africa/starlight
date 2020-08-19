@@ -2,16 +2,14 @@ header {
     text-align: center;
     height: auto;
 }
-header h1 {
-  color: darkorange;
-}
 header img {
     max-width: 100px;
     float: left;
     border-radius: 50%;
 }
 header p {
-  color: burlywood;
+  color: brown;
+  font-size: 25px;
 }
 /*The side navigation menu */
 .sidebar {
@@ -27,7 +25,7 @@ header p {
 /* Sidebar links */
 .sidebar a {
   display: block;
-  color:goldenrod;
+  color:blue;
   padding: 16px;
   text-decoration: none;
 }
@@ -53,7 +51,7 @@ div.content {
   }
 h3 {
   text-align: center;
-  color: green;
+  color: blue;
 }
 p {
   text-align: center;
@@ -70,7 +68,7 @@ div.two {
   margin: 10px;
 }
 div.two h4{
-  color: grey;
+  color: blue;
 }
 div.two img {
   height: 50px;
@@ -82,7 +80,7 @@ div.Salie {
   width: 75%;
 }
 div.Salie h4 {
-  color: darkorange;
+  color: blue;
 }
 div.Salie h5 {
   color: burlywood;
