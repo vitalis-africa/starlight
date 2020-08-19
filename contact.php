@@ -1,3 +1,4 @@
+<?php
 if (isset($_POST['submit'])) {
     $fname = $_REQUEST["fname"];
     $lname = $_REQUEST["lname"];
@@ -6,7 +7,7 @@ if (isset($_POST['submit'])) {
 
     $to = "salie@gmail.com";
     $subject = "Starlight-ke";
-    $message="First Name: ".$fname."\n"."Last Name:"."$lname."\n". "wrote the following: "."\n\n".$msg
+    $message="First Name: ".$fname."\n"."Last Name:"."$lname."\n". "wrote the following: "."\n\n".$msg"
     $headers="From: ".$email;
 
     if (mail($to, $subject, $message, $headers)){
