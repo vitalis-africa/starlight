@@ -1,7 +1,7 @@
 <?php header( 'Location: /index.html' ) ;  ?>
 
 
-<?php
+
 
 if (isset($_POST['submit'])) {
     $fname = $_REQUEST["fname"];
