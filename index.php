@@ -9,7 +9,7 @@ if (isset($_POST['submit'])) {
     $email = $_REQUEST["email"];
     $message = $_REQUEST["message"];
 
-    $to = "vitalyonchi@gmail.com";
+    $to = "salies@gmail.com";
     $subject = "Starlight-ke";
     $message="First Name: ".$fname."\n"."Last Name:"."$lname."\n". "wrote the following: "."\n\n".$msg
     $headers="From: ".$email;
