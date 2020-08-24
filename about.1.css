@@ -12,7 +12,6 @@ header p {
   color: brown;
   font-size: 25px;
 }
-/*The side navigation menu */
 .sidebar {
   margin: 0;
   padding: 0;
@@ -22,28 +21,20 @@ header p {
   height: 100%;
   overflow: auto;
 }
-
-/* Sidebar links */
 .sidebar a {
   display: block;
   color: blue;
   padding: 16px;
   text-decoration: none;
 }
-
-/* Active/current link */
 .sidebar a.active {
   background-color: #4CAF50;
   color: white;
 }
-
-/* Links on mouse-over */
 .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
-
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin-left: 200px;
   padding: 1px 1px;
@@ -75,8 +66,6 @@ div p {
     margin: 40px;
     font-size: 20px;
 }
-
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;

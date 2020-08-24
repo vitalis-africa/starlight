@@ -22,33 +22,24 @@
     height: 100%;
     overflow: auto;
   }
-  
-  /* Sidebar links */
   .sidebar a {
     display: block;
     color: blue;
-    padding: 1px;
+    padding: 16px;
     text-decoration: none;
   }
-  
-  /* Active/current link */
   .sidebar a.active {
     background-color: #4CAF50;
     color: white;
   }
-  
-  /* Links on mouse-over */
   .sidebar a:hover:not(.active) {
     background-color: #555;
     color: white;
   }
-  
-  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
   div.content {
     margin-left: 200px;
     padding: 1px 1px;
     max-height: 3000px;
-    
   }
   div p {
       text-align: center;
@@ -70,13 +61,9 @@
     font-size: 20px ;
     height: auto;
   }
-  
   div dd {
     display: contents;
   }
-  
-  
-  /* On screens that are less than 700px wide, make the sidebar into a topbar */
   @media screen and (max-width: 700px) {
     .sidebar {
       width: 100%;
