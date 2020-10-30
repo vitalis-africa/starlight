@@ -1,4 +1,11 @@
 
+  *{
+    background-color: bisque;
+  }
+  a {
+    text-decoration: none;
+    color: green;
+  }
   header {
       text-align: center;
       height: auto;
@@ -12,7 +19,6 @@
     color: brown;
     font-size: 25px;
   }
-  /*The side navigation menu */
   .sidebar {
     margin: 0;
     padding: 0;
@@ -86,8 +92,6 @@
       height: auto;
     }
   }
-  
-  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
   @media screen and (max-width: 400px) {
     header {
       height: auto;
