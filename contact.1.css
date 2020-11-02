@@ -18,7 +18,6 @@ header p {
   color: brown;
   font-size: 25px;
 }
-/*The side navigation menu */
 .sidebar {
   margin: 0;
   padding: 0;
@@ -29,27 +28,23 @@ header p {
   overflow: auto;
 }
 
-/* Sidebar links */
 .sidebar a {
   display: block;
   color:blue;
   padding: 16px;
   text-decoration: none;
 }
-
-/* Active/current link */
+p
 .sidebar a.active {
   background-color: #4CAF50;
   color: white;
 }
 
-/* Links on mouse-over */
 .sidebar a:hover:not(.active) {
   background-color: #555;
   color: white;
 }
 
-/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin-left: 200px;
   padding: 1px 16px;
@@ -58,7 +53,7 @@ div.content {
   }
 h3 {
   text-align: center;
-  color: blue;
+  color: maroon;
 }
 p {
   text-align: center;
@@ -75,12 +70,10 @@ div.two {
   margin: 10px;
 }
 div.two h4{
-  color: blue;
+  color: maroon;
 }
-div.two img {
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
+div.two i {
+  color: green;
 }
 div.Salie {
   text-align: center;
@@ -106,7 +99,6 @@ div.Salie img {
   display: inline-block;
 }
 
-/* On screens that are less than 700px wide, make the sidebar into a topbar */
 @media screen and (max-width: 700px) {
   .sidebar {
     width: 100%;
@@ -127,7 +119,6 @@ div.Salie img {
   }
 }
 
-/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
   header img {
     float: none;
